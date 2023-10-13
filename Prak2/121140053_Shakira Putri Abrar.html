@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Prak 2 Pemweb</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="cv" border="1">
+            <header class="atas">
+                <img src="asset/shakiraa.jpg" alt="ini foto" width="60%" height="20%" class="gambar">
+                <div class="judul">
+                    <h1>Hi, It's me !</h1>
+                    <h2>Shakira Putri Abrar</h2>
+                </div>
+            </header>
+
+        <nav class="navbar">
+            <li><a href="#tentang">Tentang Saya</a></li>
+            <li><a href="#pengalaman-organisasi">Pengalaman Organisasi</a></li>
+            <li><a href="#hubungi-saya">Kontak</a></li>
+        </nav>
+
+        <div class="tentang">
+        <h2>About Me</h2>
+            <p align="Justify">
+                Halo . . . !
+                <br>Perkenalkan saya Shakira Putri Abrar mahasiswa Teknik Informatika semester 5 yang berupaya belajar dan mengembangkan kemampuan dibidang IT dan pemrograman. Meskipun tidak terlalu mahir dalam coding, saya memiliki pengetahuan tentang konsep 
+                dalam bahasa pemrograman C++ dan Python. Saya memiliki komunikasi yang baik, kemampuan kerjasama tim yang kuat, dan siap untuk berkontribusi dalam hal-hal baru.
+                Salah satu hal yang paling mempengaruhi minat dan kehidupan saya adalah BTS, grup musik K-pop yang sangat dihormati dan berbakat. Dalam perjalanan hidup saya, saya telah menemukan bahwa keindahan musik
+                dan pesan yang disampaikan oleh BTS telah menjadi sumber inspirasi yang tak ternilai. Dengan cinta dan penghargaan yang tulus terhadap BTS, saya telah merasakan transformasi positif dalam diri saya, tidak hanya dalam hal musik, tetapi juga dalam cara saya melihat dunia. </p>
+        <br>
+        <div class="video">
+            <video src="asset/binary.mp4" controls width="20%" height="20%"> Video </video>
+            </div>
+            <br>
+        <div class="audio">
+                <audio src="asset/audio.mp3" controls > Musik </audio>
+            </div>
+        </div>
+
+        <div class="pengalaman">
+            <h2 id="pengalaman-organisasi">Pengalaman Organisasi</h2>
+            <table border="1">
+                <thread>
+                    <tr>
+                        <th rowspan="2">No</th>
+                        <th colspan="2">Organizational Experience</th>
+                        <th rowspan="2">Describe</th>
+                    </tr>
+                    <tr>
+                        <th>Work Position</th>
+                        <th>Institution</th> 
+                    </tr>
+                </thread>
+                <tr>
+                    <td>1</td>
+                    <td>Technology Assesment Division Staff</td>
+                    <td>HMIF ITERA 2023/2024</td>
+                    <td>Provides an assesment of technology in the IT world and
+                        <br>is packaged in the form of digital article</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Staff from the Data Center Division</td>
+                    <td>PEMIRA KM ITERA 2023</td>
+                    <td>Process and manage data that will be used in the implementation of PEMIRA KM ITERA 2023</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Creative Division Staff</td>
+                    <td>BINARY</td>
+                    <td>Design and develop creative concepts for First Gathering events</td>
+                </tr>
+            </table>
+        </div>
+
+        <form action="#" class="kontak">
+            <h2 id="hubungi-saya">Hubungi Saya</h2>
+            <p>
+                Jika Anda memiliki saran, masukan, atau pertanyaan, jangan ragu untuk menghubungi saya. Saya senang mendengar dari Anda.
+            </p>
+            <p>
+                <ul>
+                    <li><a href="https:/wa.me/+6282183157716">Whatsapp</a></li>
+                    <li><a href="https://instagram.com/shakiirapa?igshid=YTQwZjQ0NmI0OA==">Instagram</a></li>
+                </ul>
+            </p>
+            <p>
+                <label for="email">email : </label>
+                <input type="text" placeholder="shakira@gmail.com" id="email" name="soal1" <br>
+            </p>
+                
+            <p><b>
+                <label for="'tanya">Apakah kalian mahasiswa Teknik Informatika?</b></label>
+                <br>
+                <input type="radio" id="tanya" name="tanya">Iya <br>
+                <input type="radio" id="tanya" name="tanya">Tidak <br>
+            </p>
+    
+            <p><b>Bahasa pemrograman apa yang kalian kuasai?</b></p>
+                <input type="checkbox" id="tanya" name="soal3"> Python <br>
+                <input type="checkbox" id="tanya" name="soal3"> Javascript <br>
+                <input type="checkbox" id="tanya" name="soal3"> C++ <br>
+            <br>
+
+            <button class="button" type="simpan">Kirim</button>
+        </form>
+        <br>
+
+        <footer class="bawah">
+            <h3>Terima kasih atas waktu yang Anda luangkan untuk melihat informasi saya.</h3>
+        </footer>
+    </div>
+</body>
+</html>         
