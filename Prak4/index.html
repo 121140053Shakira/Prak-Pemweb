@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hitung Bilangan Ganjil dan Genap</title>
+</head>
+
+<!--Shakira Putri Abrar-->
+<!--121140053-->
+<body>
+    <h1>Menghitung Bilangan Ganjil dan Genap</h1>
+    <label for="inputBilangan">Masukkan bilangan bulat positif : </label> <br>
+    <input type="number" id="inputBilangan">
+    <button onclick="hitungGanjilGenap()">Hitung</button>
+    <br>
+    <span id="hasilPerhitungan"></span>
+
+    <script>
+        function hitungGanjilGenap() {
+            const inputElement = document.getElementById("inputBilangan");
+            const hasilElement = document.getElementById("hasilPerhitungan");
+
+            // Ambil bilangan dari input
+            const bilangan = parseInt(inputElement.value);
+
+            if (isNaN(bilangan) || bilangan <= 0) {
+                hasilElement.innerText = "Masukkan bilangan bulat positif yang valid.";
+                return;
+            }
+
+            let jumlahGanjil = 0;
+            let jumlahGenap = 0;
+
+            for (let i = 1; i <= bilangan; i++) {
+                if (i % 2 === 0) {
+                    jumlahGenap++;
+                } else {
+                    jumlahGanjil++;
+                }
+            }
+
+            alert("Jumlah bilangan ganjil : " + jumlah_ganjil + "\n Jumlah bilangan genap : " + jumlah_genap);
+            
+            let gas = prompt("lanjut ya/tidak");
+            if(gas=="ya"){
+                pilih===true;
+            }else{
+                break;
+            }
+        }
+    </script>
+</body>
+</html>
