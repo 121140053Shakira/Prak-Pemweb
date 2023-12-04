@@ -32,8 +32,8 @@ $conn->close();
 <form action="create.php" method="post">
     <label for="name">nama:</label><br>
     <input type="text" id="nama" name="nama"><br>
-    <label for="email">Email:</label><br>
-    <input type="text" id="email" name="email"><br><br>
+    <label for="email">nim:</label><br>
+    <input type="text" id="nim" name="nim"><br><br>
     <label for="prodi">prodi:</label><br>
     <input type="text" id="prodi" name="prodi"><br><br>
     <input type="submit" name="submit" value="Submit">
