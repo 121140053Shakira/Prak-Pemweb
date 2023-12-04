@@ -10,7 +10,7 @@ if (isset($_POST['submit'])) {
     $nama = $_POST['nama'];
     $nim = $_POST['nim'];
 
-    $sql = "INSERT INTO users (nama, nim) VALUES ('$nama', '$email')";
+    $sql = "INSERT INTO users (nama, nim) VALUES ('$nama', '$nim')";
 
     if ($conn->query($sql) === TRUE) {
         echo "New record created successfully";
@@ -32,7 +32,7 @@ $conn->close();
 <form action="create.php" method="post">
     <label for="name">nama:</label><br>
     <input type="text" id="nama" name="nama"><br>
-    <label for="email">nim:</label><br>
+    <label for="nim">nim:</label><br>
     <input type="text" id="nim" name="nim"><br><br>
     <label for="prodi">prodi:</label><br>
     <input type="text" id="prodi" name="prodi"><br><br>
