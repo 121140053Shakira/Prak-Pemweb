@@ -30,7 +30,7 @@ $result = $conn->query($sql);
     <?php
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
-            echo "<tr><td>" . $row["id"] . "</td><td>" . $row["nama"] . "</td><td>" . $row["email"] . "</td><td>" . $row["prodi"] . "</td></tr>";
+            echo "<tr><td>" . $row["id"] . "</td><td>" . $row["nama"] . "</td><td>" . $row["nim"] . "</td><td>" . $row["prodi"] . "</td></tr>";
         }
     } else {
         echo "<tr><td colspan='3'>No users found</td></tr>";
